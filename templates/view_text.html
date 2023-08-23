@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html>
 <head>
@@ -13,3 +14,20 @@
     <pre>{{ generated_questions }}</pre>
 </body>
 </html>
+=======
+<!doctype html>
+<html>
+<head>
+    <title>Extracted Text and Interview Questions</title>
+</head>
+<body>
+    <h1>Extracted Text from PDFs</h1>
+    {% for extracted_text in extracted_texts %}
+        <p>{{ extracted_text }}</p>
+    {% endfor %}
+    
+    <h2>Generated Interview Questions</h2>
+    <pre>{{ generated_questions }}</pre>
+</body>
+</html>
+>>>>>>> b6fc4fd756b59f698b9ba36ea36750d87054a22c
