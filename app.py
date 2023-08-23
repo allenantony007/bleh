@@ -10,7 +10,7 @@ app = Flask(__name__)
 # Configure the upload folder
 UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-
+#new content
 # Keep track of uploaded filenames
 uploaded_files = []
 
